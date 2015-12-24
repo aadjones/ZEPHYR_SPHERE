@@ -284,7 +284,7 @@ int glvuWindow()
   glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
   glvuVec3f ModelMin(-10,-10,-10), ModelMax(10,10,10), 
-        Eye(0.5,0.5,2), LookAtCntr(0.5,0.5,0.5),  Up(0,1,0);
+        Eye(1.5,0.5,2), LookAtCntr(0.5,0.5,0.5),  Up(0,1,0);
 
   float Yfov = 45;
   float Aspect = 1;
