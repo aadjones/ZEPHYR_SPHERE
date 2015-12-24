@@ -1,0 +1,375 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FLUID_3D_MIC	FLUID_3D_MIC.cpp	/^FLUID_3D_MIC::FLUID_3D_MIC() :$/;"	f	class:FLUID_3D_MIC
+FLUID_3D_MIC	FLUID_3D_MIC.cpp	/^FLUID_3D_MIC::FLUID_3D_MIC(int xRes, int yRes, int zRes, int amplify, unsigned int* boundaries) :$/;"	f	class:FLUID_3D_MIC
+FLUID_3D_MIC	FLUID_3D_MIC.h	/^class FLUID_3D_MIC  $/;"	c
+FLUID_3D_MIC_H	FLUID_3D_MIC.h	/^#define FLUID_3D_MIC_H$/;"	d
+SUBSPACE_FLUID_3D_COMPRESSED_EIGEN	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::SUBSPACE_FLUID_3D_COMPRESSED_EIGEN(int xRes, int yRes, int zRes, const string& reducedPath, unsigned int* boundaries, bool usingIOP, bool loadNothing) :$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+SUBSPACE_FLUID_3D_COMPRESSED_EIGEN	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^class SUBSPACE_FLUID_3D_COMPRESSED_EIGEN : public FLUID_3D_MIC$/;"	c
+SUBSPACE_FLUID_3D_COMPRESSED_EIGEN_H	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^#define SUBSPACE_FLUID_3D_COMPRESSED_EIGEN_H$/;"	d
+SUBSPACE_FLUID_3D_EIGEN	SUBSPACE_FLUID_3D_EIGEN.cpp	/^SUBSPACE_FLUID_3D_EIGEN::SUBSPACE_FLUID_3D_EIGEN(int xRes, int yRes, int zRes, const string& reducedPath, unsigned int* boundaries, bool usingIOP, bool loadNothing) :$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+SUBSPACE_FLUID_3D_EIGEN	SUBSPACE_FLUID_3D_EIGEN.h	/^class SUBSPACE_FLUID_3D_EIGEN : public FLUID_3D_MIC$/;"	c
+SUBSPACE_FLUID_3D_EIGEN_H	SUBSPACE_FLUID_3D_EIGEN.h	/^#define SUBSPACE_FLUID_3D_EIGEN_H$/;"	d
+U	SUBSPACE_FLUID_3D_EIGEN.h	/^  const MatrixXd& U() const { return _U; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+U_final_data	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const MATRIX_COMPRESSION_DATA& U_final_data() { return _U_final_data; }$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+U_preadvect_data	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const MATRIX_COMPRESSION_DATA& U_preadvect_data() { return _U_preadvect_data; }$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_Adiag	FLUID_3D_MIC.h	/^  FIELD_3D _Adiag;$/;"	m	class:FLUID_3D_MIC
+_Aminui	FLUID_3D_MIC.h	/^  FIELD_3D _Aminui;$/;"	m	class:FLUID_3D_MIC
+_Aminuj	FLUID_3D_MIC.h	/^  FIELD_3D _Aminuj;$/;"	m	class:FLUID_3D_MIC
+_Aminuk	FLUID_3D_MIC.h	/^  FIELD_3D _Aminuk;$/;"	m	class:FLUID_3D_MIC
+_Aplusi	FLUID_3D_MIC.h	/^  FIELD_3D _Aplusi;$/;"	m	class:FLUID_3D_MIC
+_Aplusj	FLUID_3D_MIC.h	/^  FIELD_3D _Aplusj;$/;"	m	class:FLUID_3D_MIC
+_Aplusk	FLUID_3D_MIC.h	/^  FIELD_3D _Aplusk;$/;"	m	class:FLUID_3D_MIC
+_Asparse	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  SPARSE_MATRIX _Asparse;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_Asparse	SUBSPACE_FLUID_3D_EIGEN.h	/^  SPARSE_MATRIX _Asparse;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_U	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _U;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_U_final_data	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MATRIX_COMPRESSION_DATA _U_final_data;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_U_preadvect_data	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MATRIX_COMPRESSION_DATA _U_preadvect_data;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_Ub	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _Ub[6];$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_Ub	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _Ub[6];$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_advectionCubatureAfter	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<MatrixXd> _advectionCubatureAfter;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_advectionCubatureAfter	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<MatrixXd> _advectionCubatureAfter;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_advectionCubatureBefore	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<MatrixXd> _advectionCubatureBefore;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_advectionCubatureBefore	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<MatrixXd> _advectionCubatureBefore;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_boundaryDampingMatrixReduced	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<MatrixXd> _boundaryDampingMatrixReduced;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_boundaryDampingMatrixReduced	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<MatrixXd> _boundaryDampingMatrixReduced;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_buoyancy	FLUID_3D_MIC.h	/^  Real _buoyancy;$/;"	m	class:FLUID_3D_MIC
+_cachedDivergence	FLUID_3D_MIC.h	/^  FIELD_3D _cachedDivergence;$/;"	m	class:FLUID_3D_MIC
+_cachedDivergencesIOP	FLUID_3D_MIC.h	/^  vector<FIELD_3D> _cachedDivergencesIOP;$/;"	m	class:FLUID_3D_MIC
+_cachedPressure	FLUID_3D_MIC.h	/^  FIELD_3D _cachedPressure;$/;"	m	class:FLUID_3D_MIC
+_cachedPressuresIOP	FLUID_3D_MIC.h	/^  vector<FIELD_3D> _cachedPressuresIOP;$/;"	m	class:FLUID_3D_MIC
+_cachedQuadratic	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _cachedQuadratic;$/;"	m	class:FLUID_3D_MIC
+_cachedVelocitiesIOP	FLUID_3D_MIC.h	/^  vector<VECTOR3_FIELD_3D> _cachedVelocitiesIOP;$/;"	m	class:FLUID_3D_MIC
+_center	FLUID_3D_MIC.h	/^  VEC3F _center;$/;"	m	class:FLUID_3D_MIC
+_dampingMatrix	FLUID_3D_MIC.h	/^  SPARSE_MATRIX _dampingMatrix;$/;"	m	class:FLUID_3D_MIC
+_dampingMatrixReduced	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _dampingMatrixReduced;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_dampingMatrixReduced	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _dampingMatrixReduced;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_density	FLUID_3D_MIC.h	/^  FIELD_3D _density;$/;"	m	class:FLUID_3D_MIC
+_densityErrorAbs	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real> _densityErrorAbs;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_densityErrorAbs	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real> _densityErrorAbs;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_densityErrorRelative	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real> _densityErrorRelative;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_densityErrorRelative	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real> _densityErrorRelative;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_densityOld	FLUID_3D_MIC.h	/^  FIELD_3D _densityOld;$/;"	m	class:FLUID_3D_MIC
+_direction	FLUID_3D_MIC.h	/^  FIELD_3D _direction;$/;"	m	class:FLUID_3D_MIC
+_dirichletIOP	FLUID_3D_MIC.h	/^  SPARSE_MATRIX _dirichletIOP;$/;"	m	class:FLUID_3D_MIC
+_dirichletObstacleField	FLUID_3D_MIC.h	/^  bool* _dirichletObstacleField;$/;"	m	class:FLUID_3D_MIC
+_dirichletObstacles	FLUID_3D_MIC.h	/^  vector<OBSTACLE*> _dirichletObstacles;$/;"	m	class:FLUID_3D_MIC
+_discardThreshold	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  Real _discardThreshold;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_discardThreshold	SUBSPACE_FLUID_3D_EIGEN.h	/^  Real _discardThreshold;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_divergence	FLUID_3D_MIC.h	/^  FIELD_3D _divergence;$/;"	m	class:FLUID_3D_MIC
+_domainBcBack	FLUID_3D_MIC.h	/^  unsigned int _domainBcBack;$/;"	m	class:FLUID_3D_MIC
+_domainBcBack	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int _domainBcBack;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_domainBcBack	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int _domainBcBack;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_domainBcBottom	FLUID_3D_MIC.h	/^  unsigned int _domainBcBottom;$/;"	m	class:FLUID_3D_MIC
+_domainBcBottom	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int _domainBcBottom;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_domainBcBottom	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int _domainBcBottom;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_domainBcFront	FLUID_3D_MIC.h	/^  unsigned int _domainBcFront;$/;"	m	class:FLUID_3D_MIC
+_domainBcFront	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int _domainBcFront;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_domainBcFront	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int _domainBcFront;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_domainBcLeft	FLUID_3D_MIC.h	/^  unsigned int _domainBcLeft;$/;"	m	class:FLUID_3D_MIC
+_domainBcLeft	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int _domainBcLeft;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_domainBcLeft	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int _domainBcLeft;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_domainBcRight	FLUID_3D_MIC.h	/^  unsigned int _domainBcRight;$/;"	m	class:FLUID_3D_MIC
+_domainBcRight	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int _domainBcRight;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_domainBcRight	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int _domainBcRight;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_domainBcTop	FLUID_3D_MIC.h	/^  unsigned int _domainBcTop;$/;"	m	class:FLUID_3D_MIC
+_domainBcTop	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int _domainBcTop;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_domainBcTop	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int _domainBcTop;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_dt	FLUID_3D_MIC.h	/^  Real _dt;$/;"	m	class:FLUID_3D_MIC
+_dtOld	FLUID_3D_MIC.h	/^  Real _dtOld;$/;"	m	class:FLUID_3D_MIC
+_dudt0	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _dudt0;$/;"	m	class:FLUID_3D_MIC
+_dudt1	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _dudt1;$/;"	m	class:FLUID_3D_MIC
+_dx	FLUID_3D_MIC.h	/^  Real _dx;$/;"	m	class:FLUID_3D_MIC
+_factoredReducedA	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  LDLT<MatrixXd> _factoredReducedA;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_factoredReducedA	SUBSPACE_FLUID_3D_EIGEN.h	/^  LDLT<MatrixXd> _factoredReducedA;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_force	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _force;$/;"	m	class:FLUID_3D_MIC
+_fullIOP	FLUID_3D_MIC.h	/^  SPARSE_MATRIX _fullIOP;$/;"	m	class:FLUID_3D_MIC
+_fullRankPath	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  string _fullRankPath;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_fullRankPath	SUBSPACE_FLUID_3D_EIGEN.h	/^  string _fullRankPath;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_glyphFrames	FLUID_3D_MIC.h	/^  vector<MATRIX3> _glyphFrames;$/;"	m	class:FLUID_3D_MIC
+_glyphNormals	FLUID_3D_MIC.h	/^  vector<VEC3F> _glyphNormals;$/;"	m	class:FLUID_3D_MIC
+_glyphPoints	FLUID_3D_MIC.h	/^  vector<VEC3F> _glyphPoints;$/;"	m	class:FLUID_3D_MIC
+_heat	FLUID_3D_MIC.h	/^  FIELD_3D _heat;$/;"	m	class:FLUID_3D_MIC
+_heatDiffusion	FLUID_3D_MIC.h	/^  Real _heatDiffusion;$/;"	m	class:FLUID_3D_MIC
+_heatOld	FLUID_3D_MIC.h	/^  FIELD_3D _heatOld;$/;"	m	class:FLUID_3D_MIC
+_inverseProduct	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _inverseProduct;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_inverseProduct	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _inverseProduct;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_iopU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _iopU;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_iopU	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _iopU;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_iterations	FLUID_3D_MIC.h	/^  int _iterations;$/;"	m	class:FLUID_3D_MIC
+_keyAdvectionCells	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<int> _keyAdvectionCells;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_keyAdvectionCells	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<int> _keyAdvectionCells;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_keyAdvectionWeights	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real> _keyAdvectionWeights;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_keyAdvectionWeights	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real> _keyAdvectionWeights;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_keyVorticityCells	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<int> _keyVorticityCells;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_keyVorticityCells	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<int> _keyVorticityCells;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_keyVorticityWeights	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real> _keyVorticityWeights;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_keyVorticityWeights	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real> _keyVorticityWeights;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_lengths	FLUID_3D_MIC.h	/^  VEC3F _lengths;$/;"	m	class:FLUID_3D_MIC
+_maxRes	FLUID_3D_MIC.h	/^  int _xRes, _yRes, _zRes, _maxRes;$/;"	m	class:FLUID_3D_MIC
+_midMaccormack	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _midMaccormack;$/;"	m	class:FLUID_3D_MIC
+_neumannIOP	FLUID_3D_MIC.h	/^  SPARSE_MATRIX _neumannIOP;$/;"	m	class:FLUID_3D_MIC
+_neumannObstacleField	FLUID_3D_MIC.h	/^  bool* _neumannObstacleField;$/;"	m	class:FLUID_3D_MIC
+_neumannObstacles	FLUID_3D_MIC.h	/^  vector<OBSTACLE*> _neumannObstacles;$/;"	m	class:FLUID_3D_MIC
+_neumannVelocityField	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _neumannVelocityField;$/;"	m	class:FLUID_3D_MIC
+_obstacles	FLUID_3D_MIC.h	/^  unsigned char*  _obstacles;$/;"	m	class:FLUID_3D_MIC
+_peeledBoundaryDampingMatrix	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<SPARSE_MATRIX> _peeledBoundaryDampingMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_peeledBoundaryDampingMatrix	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<SPARSE_MATRIX> _peeledBoundaryDampingMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_peeledBoundaryMatrix	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<SPARSE_MATRIX> _peeledBoundaryMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_peeledBoundaryMatrix	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<SPARSE_MATRIX> _peeledBoundaryMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_peeledBoundaryTranslationMatrix	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<SPARSE_MATRIX> _peeledBoundaryTranslationMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_peeledBoundaryTranslationMatrix	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<SPARSE_MATRIX> _peeledBoundaryTranslationMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_peeledDampingFull	FLUID_3D_MIC.h	/^  SPARSE_MATRIX _peeledDampingFull;$/;"	m	class:FLUID_3D_MIC
+_peeledDampingMatrix	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  SPARSE_MATRIX _peeledDampingMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_peeledDampingMatrix	SUBSPACE_FLUID_3D_EIGEN.h	/^  SPARSE_MATRIX _peeledDampingMatrix;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_peeledIOP	FLUID_3D_MIC.h	/^  SPARSE_MATRIX _peeledIOP;$/;"	m	class:FLUID_3D_MIC
+_postIOP	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _postIOP;$/;"	m	class:FLUID_3D_MIC
+_postadvection	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _postadvection;$/;"	m	class:FLUID_3D_MIC
+_preadvectU	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _preadvectU;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_preadvection	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _preadvection;$/;"	m	class:FLUID_3D_MIC
+_precon	FLUID_3D_MIC.h	/^  FIELD_3D _precon;$/;"	m	class:FLUID_3D_MIC
+_prediffuseU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _prediffuseU;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_prediffuseU	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _prediffuseU;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_prediffusion	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _prediffusion;$/;"	m	class:FLUID_3D_MIC
+_preprojectToFinal	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _preprojectToFinal;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_preprojectToFinal	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _preprojectToFinal;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_preprojectToPreadvect	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _preprojectToPreadvect;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_preprojectToPreadvect	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _preprojectToPreadvect;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_preprojectU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _preprojectU;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_preprojectU	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _preprojectU;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_preprojection	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _preprojection;$/;"	m	class:FLUID_3D_MIC
+_pressure	FLUID_3D_MIC.h	/^  FIELD_3D _pressure;$/;"	m	class:FLUID_3D_MIC
+_pressureToVelocity	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  SPARSE_MATRIX _pressureToVelocity;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_pressureToVelocity	SUBSPACE_FLUID_3D_EIGEN.h	/^  SPARSE_MATRIX _pressureToVelocity;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_pressureU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _pressureU;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_pressureU	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _pressureU;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_prevorticity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _prevorticity;$/;"	m	class:FLUID_3D_MIC
+_prevorticityU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _prevorticityU;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_prevorticityU	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _prevorticityU;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_proceduralVelocity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _proceduralVelocity;$/;"	m	class:FLUID_3D_MIC
+_projectedNeumann	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<MatrixXd> _projectedNeumann;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_projectedNeumann	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<MatrixXd> _projectedNeumann;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_projectionIOP	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _projectionIOP;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_q	FLUID_3D_MIC.h	/^  FIELD_3D _q;$/;"	m	class:FLUID_3D_MIC
+_qDot	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  VectorXd _qDot;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_qDot	SUBSPACE_FLUID_3D_EIGEN.h	/^  VectorXd _qDot;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_qbDot	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  VectorXd _qbDot[6];$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_qbDot	SUBSPACE_FLUID_3D_EIGEN.h	/^  VectorXd _qbDot[6];$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_reducedA	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _reducedA;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_reducedA	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _reducedA;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_reducedIOP	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _reducedIOP;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_reducedPath	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  string _reducedPath;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_reducedPath	SUBSPACE_FLUID_3D_EIGEN.h	/^  string _reducedPath;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_reducedPressureToVelocity	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _reducedPressureToVelocity;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_reducedPressureToVelocity	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _reducedPressureToVelocity;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_reducedVelocityToDivergence	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  MatrixXd _reducedVelocityToDivergence;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_reducedVelocityToDivergence	SUBSPACE_FLUID_3D_EIGEN.h	/^  MatrixXd _reducedVelocityToDivergence;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_res	FLUID_3D_MIC.h	/^  VEC3I _res;$/;"	m	class:FLUID_3D_MIC
+_residual	FLUID_3D_MIC.h	/^  FIELD_3D _residual;$/;"	m	class:FLUID_3D_MIC
+_slabPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  int _slabPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_slabPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  int _slabPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_slabSize	FLUID_3D_MIC.h	/^  int _slabSize;$/;"	m	class:FLUID_3D_MIC
+_snapshotPath	FLUID_3D_MIC.h	/^  string _snapshotPath;$/;"	m	class:FLUID_3D_MIC
+_solverEps	FLUID_3D_MIC.h	/^  Real _solverEps;$/;"	m	class:FLUID_3D_MIC
+_totalCells	FLUID_3D_MIC.h	/^  int _totalCells;$/;"	m	class:FLUID_3D_MIC
+_totalImgDumps	FLUID_3D_MIC.h	/^  int _totalImgDumps;$/;"	m	class:FLUID_3D_MIC
+_totalSteps	FLUID_3D_MIC.h	/^  int _totalSteps;$/;"	m	class:FLUID_3D_MIC
+_totalTime	FLUID_3D_MIC.h	/^  Real _totalTime;$/;"	m	class:FLUID_3D_MIC
+_totalVelDumps	FLUID_3D_MIC.h	/^  int _totalVelDumps;$/;"	m	class:FLUID_3D_MIC
+_usingIOP	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  bool _usingIOP;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_usingIOP	SUBSPACE_FLUID_3D_EIGEN.h	/^  bool _usingIOP;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_velocity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _velocity;$/;"	m	class:FLUID_3D_MIC
+_velocityErrorAbs	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real> _velocityErrorAbs;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_velocityErrorAbs	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real> _velocityErrorAbs;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_velocityErrorRelative	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real> _velocityErrorRelative;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_velocityErrorRelative	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real> _velocityErrorRelative;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_velocityOld	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _velocityOld;$/;"	m	class:FLUID_3D_MIC
+_velocityToDivergence	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  SPARSE_MATRIX _velocityToDivergence;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_velocityToDivergence	SUBSPACE_FLUID_3D_EIGEN.h	/^  SPARSE_MATRIX _velocityToDivergence;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_vorticity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D _vorticity;$/;"	m	class:FLUID_3D_MIC
+_vorticityCubatureAfter	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<MatrixXd> _vorticityCubatureAfter;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_vorticityCubatureAfter	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<MatrixXd> _vorticityCubatureAfter;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_vorticityCubatureBefore	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<MatrixXd> _vorticityCubatureBefore;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_vorticityCubatureBefore	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<MatrixXd> _vorticityCubatureBefore;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_vorticityEps	FLUID_3D_MIC.h	/^  Real _vorticityEps;$/;"	m	class:FLUID_3D_MIC
+_xPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  int _xPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_xPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  int _xPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_xRes	FLUID_3D_MIC.h	/^  int _xRes, _yRes, _zRes, _maxRes;$/;"	m	class:FLUID_3D_MIC
+_xs	FLUID_3D_MIC.h	/^	int _xs, _ys, _zs;$/;"	m	class:FLUID_3D_MIC
+_yPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  int _yPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_yPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  int _yPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_yRes	FLUID_3D_MIC.h	/^  int _xRes, _yRes, _zRes, _maxRes;$/;"	m	class:FLUID_3D_MIC
+_ys	FLUID_3D_MIC.h	/^	int _xs, _ys, _zs;$/;"	m	class:FLUID_3D_MIC
+_z	FLUID_3D_MIC.h	/^  FIELD_3D _z;$/;"	m	class:FLUID_3D_MIC
+_zPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  int _zPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+_zPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  int _zPeeled;$/;"	m	class:SUBSPACE_FLUID_3D_EIGEN
+_zRes	FLUID_3D_MIC.h	/^  int _xRes, _yRes, _zRes, _maxRes;$/;"	m	class:FLUID_3D_MIC
+_zs	FLUID_3D_MIC.h	/^	int _xs, _ys, _zs;$/;"	m	class:FLUID_3D_MIC
+addBuoyancy	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::addBuoyancy(Real *field)$/;"	f	class:FLUID_3D_MIC
+addSmokeColumn	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::addSmokeColumn() $/;"	f	class:FLUID_3D_MIC
+addSmokeTestCase	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::addSmokeTestCase(Real* field, VEC3I res)$/;"	f	class:FLUID_3D_MIC
+addVorticity	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::addVorticity()$/;"	f	class:FLUID_3D_MIC
+advectCellStamPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^VectorXd SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::advectCellStamPeeled(MATRIX_COMPRESSION_DATA& U_data, const MatrixXd& cellU, const Real& dt, const VectorXd& qDot, const int index, MatrixXd& submatrix)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+advectCellStamPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^VectorXd SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::advectCellStamPeeled(MATRIX_COMPRESSION_DATA& U_data, const Real& dt, const VectorXd& qDot, const int index, MatrixXd& submatrix)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+advectCellStamPeeled	SUBSPACE_FLUID_3D_EIGEN.cpp	/^VectorXd SUBSPACE_FLUID_3D_EIGEN::advectCellStamPeeled(const MatrixXd& U, const MatrixXd& cellU, const Real& dt, const VectorXd& qDot, const int index)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+advectCellStamPeeled	SUBSPACE_FLUID_3D_EIGEN.cpp	/^VectorXd SUBSPACE_FLUID_3D_EIGEN::advectCellStamPeeled(const MatrixXd& U, const Real& dt, const VectorXd& qDot, const int index)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+advectHeatAndDensityStam	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::advectHeatAndDensityStam()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+advectHeatAndDensityStam	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::advectHeatAndDensityStam()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+advectStam	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::advectStam()$/;"	f	class:FLUID_3D_MIC
+appendStreams	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::appendStreams() const$/;"	f	class:FLUID_3D_MIC
+appendStreamsIOP	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::appendStreamsIOP() const$/;"	f	class:FLUID_3D_MIC
+applyMICPreconditioner	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::applyMICPreconditioner(FIELD_3D& zf, FIELD_3D& r, FIELD_3D& q)$/;"	f	class:FLUID_3D_MIC
+buildA	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::buildA(unsigned char* skip, bool heat)$/;"	f	class:FLUID_3D_MIC
+buildFlatA	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::buildFlatA(SPARSE_MATRIX_ARRAY& sparseA, unsigned char* skip)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+buildFlatA	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::buildFlatA(SPARSE_MATRIX_ARRAY& sparseA, unsigned char* skip)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+buildMICPreconditioner	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::buildMICPreconditioner()$/;"	f	class:FLUID_3D_MIC
+buildOutOfCoreMatrices	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::buildOutOfCoreMatrices()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+buildOutOfCoreMatricesIOP	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::buildOutOfCoreMatricesIOP()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+buildPeeledDampingMatrixFlat	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::buildPeeledDampingMatrixFlat(SPARSE_MATRIX_ARRAY& peeledDampingMatrix)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+buildPeeledDampingMatrixFlat	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::buildPeeledDampingMatrixFlat(SPARSE_MATRIX_ARRAY& peeledDampingMatrix)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+buildPeeledDampingMatrixFull	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::buildPeeledDampingMatrixFull()$/;"	f	class:FLUID_3D_MIC
+buildPeeledSparseIOP	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::buildPeeledSparseIOP(SPARSE_MATRIX& A, const VEC3I& center, double radius) $/;"	f	class:FLUID_3D_MIC
+buildPeeledSparseIOP	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::buildPeeledSparseIOP(SPARSE_MATRIX& A, const VEC3I& center, double radius) $/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+buildSparseIOP	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::buildSparseIOP(SPARSE_MATRIX& A, const VEC3I& center, double radius)$/;"	f	class:FLUID_3D_MIC
+buildSparseIOP	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::buildSparseIOP(SPARSE_MATRIX& A, const VEC3I& center, double radius)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+buoyancy	FLUID_3D_MIC.h	/^  Real& buoyancy() { return _buoyancy; };$/;"	f	class:FLUID_3D_MIC
+cachedDivergence	FLUID_3D_MIC.h	/^  FIELD_3D& cachedDivergence()  { return _cachedDivergence; };$/;"	f	class:FLUID_3D_MIC
+cachedDivergencesIOP	FLUID_3D_MIC.h	/^  vector<FIELD_3D>& cachedDivergencesIOP() { return _cachedDivergencesIOP; };$/;"	f	class:FLUID_3D_MIC
+cachedPressure	FLUID_3D_MIC.h	/^  FIELD_3D& cachedPressure()    { return _cachedPressure; };$/;"	f	class:FLUID_3D_MIC
+cachedPressuresIOP	FLUID_3D_MIC.h	/^  vector<FIELD_3D>& cachedPressuresIOP() { return _cachedPressuresIOP; };$/;"	f	class:FLUID_3D_MIC
+cachedQuadratic	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& cachedQuadratic()  { return _cachedQuadratic; };$/;"	f	class:FLUID_3D_MIC
+cachedVelocitiesIOP	FLUID_3D_MIC.h	/^  vector<VECTOR3_FIELD_3D>& cachedVelocitiesIOP() { return _cachedVelocitiesIOP; };$/;"	f	class:FLUID_3D_MIC
+cellBasisCompressedPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^MatrixXd SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::cellBasisCompressedPeeled(MATRIX_COMPRESSION_DATA& U_data, const int index)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+cellBasisPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^MatrixXd SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::cellBasisPeeled(const MatrixXd& U, const int index)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+cellBasisPeeled	SUBSPACE_FLUID_3D_EIGEN.cpp	/^MatrixXd SUBSPACE_FLUID_3D_EIGEN::cellBasisPeeled(const MatrixXd& U, const int index)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+cellCenter	FLUID_3D_MIC.cpp	/^VEC3F FLUID_3D_MIC::cellCenter(int x, int y, int z)$/;"	f	class:FLUID_3D_MIC
+cellCenter	SUBSPACE_FLUID_3D_EIGEN.cpp	/^VEC3F SUBSPACE_FLUID_3D_EIGEN::cellCenter(int x, int y, int z)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+center	FLUID_3D_MIC.h	/^  VEC3F  center() const {return _center;}	$/;"	f	class:FLUID_3D_MIC
+computePressureToVelocity	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::computePressureToVelocity()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+computePressureToVelocity	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::computePressureToVelocity()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+computeVelocityToDivergence	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::computeVelocityToDivergence()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+computeVelocityToDivergence	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::computeVelocityToDivergence()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+density	FLUID_3D_MIC.h	/^  FIELD_3D&         density()       { return _density; };$/;"	f	class:FLUID_3D_MIC
+densityErrorAbs	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real>& densityErrorAbs() { return _densityErrorAbs; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+densityErrorAbs	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real>& densityErrorAbs() { return _densityErrorAbs; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+densityErrorRelative	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real>& densityErrorRelative() { return _densityErrorRelative; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+densityErrorRelative	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real>& densityErrorRelative() { return _densityErrorRelative; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+diffGroundTruth	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::diffGroundTruth()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+diffGroundTruth	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::diffGroundTruth()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+diffTruth	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::diffTruth(const VECTOR3_FIELD_3D& testVelocity, $/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+dirichletObstacles	FLUID_3D_MIC.h	/^  vector<OBSTACLE*>& dirichletObstacles() { return _dirichletObstacles; };$/;"	f	class:FLUID_3D_MIC
+discardThreshold	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  Real& discardThreshold() { return _discardThreshold; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+discardThreshold	SUBSPACE_FLUID_3D_EIGEN.h	/^  Real& discardThreshold() { return _discardThreshold; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+divergence	FLUID_3D_MIC.h	/^  FIELD_3D&         divergence()    { return _divergence; };$/;"	f	class:FLUID_3D_MIC
+domainBcBack	FLUID_3D_MIC.h	/^  unsigned int& domainBcBack()   { return _domainBcBack; };$/;"	f	class:FLUID_3D_MIC
+domainBcBack	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int& domainBcBack()   { return _domainBcBack; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+domainBcBack	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int& domainBcBack()   { return _domainBcBack; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+domainBcBottom	FLUID_3D_MIC.h	/^  unsigned int& domainBcBottom() { return _domainBcBottom; };$/;"	f	class:FLUID_3D_MIC
+domainBcBottom	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int& domainBcBottom() { return _domainBcBottom; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+domainBcBottom	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int& domainBcBottom() { return _domainBcBottom; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+domainBcFront	FLUID_3D_MIC.h	/^  unsigned int& domainBcFront()  { return _domainBcFront; };$/;"	f	class:FLUID_3D_MIC
+domainBcFront	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int& domainBcFront()  { return _domainBcFront; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+domainBcFront	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int& domainBcFront()  { return _domainBcFront; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+domainBcLeft	FLUID_3D_MIC.h	/^  unsigned int& domainBcLeft()   { return _domainBcLeft; };$/;"	f	class:FLUID_3D_MIC
+domainBcLeft	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int& domainBcLeft()   { return _domainBcLeft; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+domainBcLeft	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int& domainBcLeft()   { return _domainBcLeft; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+domainBcRight	FLUID_3D_MIC.h	/^  unsigned int& domainBcRight()  { return _domainBcRight; };$/;"	f	class:FLUID_3D_MIC
+domainBcRight	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int& domainBcRight()  { return _domainBcRight; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+domainBcRight	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int& domainBcRight()  { return _domainBcRight; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+domainBcTop	FLUID_3D_MIC.h	/^  unsigned int& domainBcTop()    { return _domainBcTop; };$/;"	f	class:FLUID_3D_MIC
+domainBcTop	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  unsigned int& domainBcTop()    { return _domainBcTop; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+domainBcTop	SUBSPACE_FLUID_3D_EIGEN.h	/^  unsigned int& domainBcTop()    { return _domainBcTop; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+dt	FLUID_3D_MIC.h	/^  Real dt() const { return _dt; };$/;"	f	class:FLUID_3D_MIC
+dx	FLUID_3D_MIC.h	/^  Real dx() const { return _dx; };$/;"	f	class:FLUID_3D_MIC
+fileExists	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^bool SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::fileExists(const string& filename)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+fileExists	SUBSPACE_FLUID_3D_EIGEN.cpp	/^bool SUBSPACE_FLUID_3D_EIGEN::fileExists(const string& filename)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+force	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& force()         { return _force; };$/;"	f	class:FLUID_3D_MIC
+fullRankPath	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  string& fullRankPath() { return _fullRankPath; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+fullRankPath	SUBSPACE_FLUID_3D_EIGEN.h	/^  string& fullRankPath() { return _fullRankPath; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+glyphNormals	FLUID_3D_MIC.h	/^  vector<VEC3F>& glyphNormals() { return _glyphNormals; };$/;"	f	class:FLUID_3D_MIC
+glyphPoints	FLUID_3D_MIC.h	/^  vector<VEC3F>& glyphPoints() { return _glyphPoints; };$/;"	f	class:FLUID_3D_MIC
+initCompressionData	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::initCompressionData()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+initOutOfCore	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::initOutOfCore()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+initOutOfCore	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::initOutOfCore()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+initOutOfCoreIOP	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::initOutOfCoreIOP()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+lengths	FLUID_3D_MIC.h	/^  VEC3F  lengths() const {return _lengths;}	$/;"	f	class:FLUID_3D_MIC
+loadCubatureTrainingBases	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::loadCubatureTrainingBases()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+loadCubatureTrainingBases	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::loadCubatureTrainingBases()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+loadReducedIOP	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::loadReducedIOP(string path)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+loadReducedIOPAll	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::loadReducedIOPAll(string path)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+loadReducedRuntimeBases	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::loadReducedRuntimeBases(string path)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+loadReducedRuntimeBases	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::loadReducedRuntimeBases(string path)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+loadReducedRuntimeBasesAll	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::loadReducedRuntimeBasesAll(string path)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+matrixIOP	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::matrixIOP(const VEC3I& center, double radius)$/;"	f	class:FLUID_3D_MIC
+midMaccormack	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& midMaccormack()  { return _midMaccormack; };$/;"	f	class:FLUID_3D_MIC
+multA	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::multA(const FIELD_3D& xf, FIELD_3D& bf)$/;"	f	class:FLUID_3D_MIC
+neumannIOPMatrix	FLUID_3D_MIC.h	/^  SPARSE_MATRIX& neumannIOPMatrix() { return _neumannIOP; };$/;"	f	class:FLUID_3D_MIC
+neumannObstacles	FLUID_3D_MIC.h	/^  vector<OBSTACLE*>& neumannObstacles() { return _neumannObstacles; };$/;"	f	class:FLUID_3D_MIC
+postIOP	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& postIOP()       { return _postIOP; };$/;"	f	class:FLUID_3D_MIC
+postadvection	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& postadvection() { return _postadvection; };$/;"	f	class:FLUID_3D_MIC
+preadvectU	SUBSPACE_FLUID_3D_EIGEN.h	/^  const MatrixXd& preadvectU() const { return _preadvectU; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+preadvection	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& preadvection()  { return _preadvection; };$/;"	f	class:FLUID_3D_MIC
+prediffuseU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const MatrixXd& prediffuseU() const { return _prediffuseU; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+prediffuseU	SUBSPACE_FLUID_3D_EIGEN.h	/^  const MatrixXd& prediffuseU() const { return _prediffuseU; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+prediffusion	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& prediffusion()  { return _prediffusion; };$/;"	f	class:FLUID_3D_MIC
+preprojection	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& preprojection() { return _preprojection; };$/;"	f	class:FLUID_3D_MIC
+pressure	FLUID_3D_MIC.h	/^  FIELD_3D&         pressure()      { return _pressure; };$/;"	f	class:FLUID_3D_MIC
+prevorticity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& prevorticity()  { return _prevorticity; };$/;"	f	class:FLUID_3D_MIC
+prevorticityU	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const MatrixXd& prevorticityU() const { return _prevorticityU; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+prevorticityU	SUBSPACE_FLUID_3D_EIGEN.h	/^  const MatrixXd& prevorticityU() const { return _prevorticityU; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+project	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::project()$/;"	f	class:FLUID_3D_MIC
+projectionError	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^Real SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::projectionError(const MatrixXd& basis, const VectorXd& v)$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+projectionError	SUBSPACE_FLUID_3D_EIGEN.cpp	/^Real SUBSPACE_FLUID_3D_EIGEN::projectionError(const MatrixXd& basis, const VectorXd& v)$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+purge	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  void purge() { cout << " Purging inactive OSX memory" << endl; system("purge"); };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+purge	SUBSPACE_FLUID_3D_EIGEN.h	/^  void purge() { cout << " Purging inactive OSX memory" << endl; system("purge"); };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+readAdvectionCubature	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::readAdvectionCubature()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+readAdvectionCubature	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::readAdvectionCubature()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+readGz	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::readGz(string filename)$/;"	f	class:FLUID_3D_MIC
+reducedAdvectStagedStamFast	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::reducedAdvectStagedStamFast()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+reducedAdvectStagedStamFast	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::reducedAdvectStagedStamFast()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+reducedPeeledDiffusion	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::reducedPeeledDiffusion() $/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+reducedPeeledDiffusion	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::reducedPeeledDiffusion() $/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+reducedSetZeroSphere	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::reducedSetZeroSphere()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+reducedStagedProject	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::reducedStagedProject()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+reducedStagedProject	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::reducedStagedProject()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+reducedStagedProjectIOP	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::reducedStagedProjectIOP()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+setObstacleBoundaries	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::setObstacleBoundaries()$/;"	f	class:FLUID_3D_MIC
+size	FLUID_3D_MIC.h	/^  int size() const { return _xRes*_yRes*_zRes; };$/;"	f	class:FLUID_3D_MIC
+slabSize	FLUID_3D_MIC.h	/^  int slabSize() const { return _slabSize; };$/;"	f	class:FLUID_3D_MIC
+snapshotPath	FLUID_3D_MIC.h	/^  string& snapshotPath() { return _snapshotPath; };$/;"	f	class:FLUID_3D_MIC
+solvePoisson	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::solvePoisson(FIELD_3D& x, FIELD_3D& b, unsigned char* skip, bool heat)$/;"	f	class:FLUID_3D_MIC
+step	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::step()$/;"	f	class:FLUID_3D_MIC
+stepObstacleReorderedCubatureStam	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::stepObstacleReorderedCubatureStam()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+stepReorderedCubatureStam	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::stepReorderedCubatureStam()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+stepReorderedCubatureStam	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::stepReorderedCubatureStam()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+stepReorderedCubatureStamTest	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::stepReorderedCubatureStamTest()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+stepWithObstacle	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::stepWithObstacle()$/;"	f	class:FLUID_3D_MIC
+stompAllBases	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::stompAllBases()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+stompAllBases	SUBSPACE_FLUID_3D_EIGEN.cpp	/^void SUBSPACE_FLUID_3D_EIGEN::stompAllBases()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+velocity	FLUID_3D_MIC.h	/^  VEC3F  velocity(int i) const      { return _velocity(i); };$/;"	f	class:FLUID_3D_MIC
+velocity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& velocity()      { return _velocity; };$/;"	f	class:FLUID_3D_MIC
+velocityErrorAbs	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real>& velocityErrorAbs() { return _velocityErrorAbs; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+velocityErrorAbs	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real>& velocityErrorAbs() { return _velocityErrorAbs; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+velocityErrorRelative	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  vector<Real>& velocityErrorRelative() { return _velocityErrorRelative; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+velocityErrorRelative	SUBSPACE_FLUID_3D_EIGEN.h	/^  vector<Real>& velocityErrorRelative() { return _velocityErrorRelative; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+velocityOld	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& velocityOld()   { return _velocityOld; };$/;"	f	class:FLUID_3D_MIC
+vorticity	FLUID_3D_MIC.h	/^  VECTOR3_FIELD_3D& vorticity()     { return _vorticity; };$/;"	f	class:FLUID_3D_MIC
+vorticityEps	FLUID_3D_MIC.h	/^  Real& vorticityEps() { return _vorticityEps; };$/;"	f	class:FLUID_3D_MIC
+writeGz	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::writeGz(string filename) const$/;"	f	class:FLUID_3D_MIC
+xPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const int xPeeled() const { return _xPeeled; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+xPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  const int xPeeled() const { return _xPeeled; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+xRes	FLUID_3D_MIC.h	/^  int xRes() const { return _xRes; };$/;"	f	class:FLUID_3D_MIC
+yPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const int yPeeled() const { return _yPeeled; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+yPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  const int yPeeled() const { return _yPeeled; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+yRes	FLUID_3D_MIC.h	/^  int yRes() const { return _yRes; };$/;"	f	class:FLUID_3D_MIC
+zPeeled	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.h	/^  const int zPeeled() const { return _zPeeled; };$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+zPeeled	SUBSPACE_FLUID_3D_EIGEN.h	/^  const int zPeeled() const { return _zPeeled; };$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
+zRes	FLUID_3D_MIC.h	/^  int zRes() const { return _zRes; };$/;"	f	class:FLUID_3D_MIC
+zeroBoundary	FLUID_3D_MIC.cpp	/^void FLUID_3D_MIC::zeroBoundary(FIELD_3D& x, unsigned char* skip)$/;"	f	class:FLUID_3D_MIC
+~FLUID_3D_MIC	FLUID_3D_MIC.cpp	/^FLUID_3D_MIC::~FLUID_3D_MIC()$/;"	f	class:FLUID_3D_MIC
+~SUBSPACE_FLUID_3D_COMPRESSED_EIGEN	SUBSPACE_FLUID_3D_COMPRESSED_EIGEN.cpp	/^SUBSPACE_FLUID_3D_COMPRESSED_EIGEN::~SUBSPACE_FLUID_3D_COMPRESSED_EIGEN()$/;"	f	class:SUBSPACE_FLUID_3D_COMPRESSED_EIGEN
+~SUBSPACE_FLUID_3D_EIGEN	SUBSPACE_FLUID_3D_EIGEN.cpp	/^SUBSPACE_FLUID_3D_EIGEN::~SUBSPACE_FLUID_3D_EIGEN()$/;"	f	class:SUBSPACE_FLUID_3D_EIGEN
