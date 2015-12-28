@@ -384,6 +384,61 @@ void FIELD_3D::writeGz(string filename) const
 }
 
 ///////////////////////////////////////////////////////////////////////
+// write to a PBRT file
+///////////////////////////////////////////////////////////////////////
+
+void FIELD_3D::exportPbrt(FIELD_3D& density, const char* out) {
+  int xRes,yRes,zRes,index;
+  Real dx = density.dx();
+  xRes = density.xRes();
+  yRes = density.yRes();
+  zRes = density.zRes();
+  int blockSize = 16;
+  int xSubRes = xRes/blockSize;
+  int ySubRes = yRes/blockSize;
+  int zSubRes = zRes/blockSize;
+  
+  Real mx,px,my,py,mz,pz;
+  
+  mx = -dx*(Real)xRes;
+  px =  dx*(Real)xRes;
+  my = -dx*(Real)yRes;
+  py =  dx*(Real)yRes;
+  mz = -dx*(Real)zRes;
+  pz =  dx*(Real)zRes;	
+
+
+  ostringstream data;
+  ofstream output;
+  output.open(out);
+  data << " [" << std::endl;
+  std::cout << "converting field data" << std::endl;
+  for (int z = 0; z < zRes; z++)
+    for (int y = 0; y < yRes; y++)
+      for (int x = 0; x < xRes; x++)
+	{
+	  float value = (float)density(x,y,z);
+	  data << 100.0*value << " ";
+	}
+  std::cout << "finished converting field data" << std::endl;
+  data << std::endl << "]";
+  output << "Volume \"volumegrid\"";
+  output << " \"integer nx\" " << xRes;
+  output << " \"integer ny\" " << yRes;
+  output << " \"integer nz\" " << zRes;
+  output << std::endl;
+  output << "\t";
+  output <<  "\"point p0\" [ " << mx << " " << my << " "  << mz <<  "]";
+  output <<  " \"point p1\" [ " << px << " " << py << " "  << pz <<  "]";
+  output << std::endl;
+  output << "\t";
+  output << "\"float density\" ";
+  output << data.str();
+  std::cout << "closing converted file" << std::endl;
+  output.close();
+}
+
+///////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////
 void FIELD_3D::read(string filename)
 {

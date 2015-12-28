@@ -136,6 +136,7 @@ public:
   void readHoudiniSurf(string filename);
   void readHoudiniSurfGz(string filename);
   static void readHoudiniVel(const string filename, FIELD_3D& xVelocity, FIELD_3D& yVelocity, FIELD_3D& zVelocity);
+  static void exportPbrt(FIELD_3D& density, const char* out);
 
   // streaming IO functions
   void write(FILE* file) const;

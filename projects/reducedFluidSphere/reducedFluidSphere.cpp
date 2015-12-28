@@ -385,14 +385,11 @@ void runEverytime()
     // the splitting is not permuted in this method
     fluid->stepObstacleSameOrder();
     
-    /* 
+     
     char buffer[256];
-    string path = snapshotPath;
-    sprintf(buffer, "%sfluid.%04i.fluid3d", path.c_str(), steps);
-    string filename(buffer);
-    ground->readGz(filename);
-    cout << " Loaded in ground. " << endl;
-    */
+    const char* path = "./pbrt/";
+    sprintf(buffer, "%sfluid.sphere.%03i.pbrt", path, steps);
+    FIELD_3D::exportPbrt(fluid->density(), buffer);
 
     steps++;
 
