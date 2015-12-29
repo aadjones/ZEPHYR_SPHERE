@@ -30,9 +30,9 @@
 #include "FLUID_3D_MIC.h"
 #include "SPARSE_MATRIX_ARRAY.h"
 #include "COMPRESSION_DATA.h"
-#include "DECOMPRESSION_DATA.h"
 #include "MATRIX_COMPRESSION_DATA.h"
 #include "COMPRESSION.h"
+#include "BOX.h"
 
 using namespace std;
 using namespace Eigen;
@@ -57,9 +57,11 @@ public:
 
   void stepReorderedCubatureStam();
   void stepWithObstacle();
+  //void stepMovingObstacle(BOX* box);
+  //void stepMovingObstacleDebug(BOX* box);
 
   // const MatrixXd& U() const { return _U; };
-  // const MatrixXd& preadvectU() const { return _preadvectU; };
+  const MatrixXd& preadvectU() const { return _preadvectU; };
 
   MATRIX_COMPRESSION_DATA& U_final_data() { return _U_final_data; }
   MATRIX_COMPRESSION_DATA& U_preadvect_data() { return _U_preadvect_data; }
@@ -82,6 +84,8 @@ public:
 
   VectorXd advectCellStamPeeled(MATRIX_COMPRESSION_DATA& U_data, const MatrixXd& cellU, 
       Real dt, const VectorXd& qDot, int index, MatrixXd* submatrix);
+
+  //void reducedSetMovingBox(BOX* box);
 
 private:
   struct CUBATURE_DATA {
@@ -108,17 +112,24 @@ public:
 
   // load the bases needed for cubature runtime
   void loadReducedRuntimeBases(string path = string(""));
-  void loadReducedIOP(string path = string(""), bool debug = 0);
-
+  void loadReducedIOP(string path = string(""));
+  void loadReducedIOPAll(string path = string(""));
 
   // read in a cubature scheme
   void readAdvectionCubature();
+
+  // debugging compressed-space vs full space
+  void diffTruth(const VECTOR3_FIELD_3D& testVelocity, const FIELD_3D& testDensity);
 
   // build matrices assuming that a limited number of matrices fit in memory
   // void buildOutOfCoreMatrices();
 
 protected: 
-  // MatrixXd _U;
+  MatrixXd _U;
+
+  //BOX _box;
+  int _totalReducedSteps;
+
   MATRIX_COMPRESSION_DATA _U_final_data;
   MATRIX_COMPRESSION_DATA _U_preadvect_data;
   MATRIX_COMPRESSION_DATA _U_preproject_data;
@@ -177,6 +188,19 @@ protected:
   // matrix to project the full IOP matrix into the subspace
   MatrixXd _projectionIOP;
 
+  // precomputed _prejectionIOP' * _preprojectU for moving obstacle
+  MatrixXd _projectionIOP_T_preprojectU;
+
+  // the complement matrix to the neumann IOP matrix, flipping 0's and 1's on the
+  // diagonal
+  SPARSE_MATRIX _neumannIOPcomplement;
+
+  // the homogeneous vector n that is appended as the last column of the IOP matrix
+  VectorXd _neumannVector;
+
+  // the reduced space version of _neumannVector
+  VectorXd _reducedNeumannVector;
+
   // reduced matrix version of stomping the interior of an obstacle for IOP
   MatrixXd _reducedIOP;
 
@@ -222,7 +246,7 @@ protected:
   // once to project the matrix
   MatrixXd _preprojectU;
   // TODO: use compressed version here?
-  // MatrixXd _preadvectU;
+  MatrixXd _preadvectU;
   MatrixXd _prediffuseU;
   MatrixXd _prevorticityU;
 
@@ -315,6 +339,8 @@ protected:
   
   // add a new orthogonalized column to the basis
   void addNewColumn(const VectorXd& newColumn, MatrixXd& U);
+
+
 };
 
 #endif
