@@ -101,6 +101,12 @@ public:
   // same as above but for IOP
   void buildOutOfCoreMatricesIOP();
 
+  // write the dims of the subspace error matrix to its file
+  void writeSubspaceErrorMatrixDims(int simulationSnapshots);
+
+  // write out the most recent subspace vector to the subspace matrix file
+  void appendSubspaceVectors();
+
 protected: 
   MatrixXd _U;
 

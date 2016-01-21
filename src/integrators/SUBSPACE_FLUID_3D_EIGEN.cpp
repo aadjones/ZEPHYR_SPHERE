@@ -1724,8 +1724,56 @@ void SUBSPACE_FLUID_3D_EIGEN::buildOutOfCoreMatricesIOP()
   cout << " Done building matrices " << endl;
   TIMER::printTimings();
 }
+
 //////////////////////////////////////////////////////////////////////
-// check of a file exists
+// Write out the dims of the collection of subspace vectors into a matrix
+//////////////////////////////////////////////////////////////////////
+void SUBSPACE_FLUID_3D_EIGEN::writeSubspaceErrorMatrixDims(int simulationSnapshots)
+{
+  FILE* matrixFile;
+  string filename = _reducedPath + string("qDot.matrix");
+
+  matrixFile = fopen(filename.c_str(), "wb");
+  if (matrixFile==NULL) {
+    perror("Error opening matrixFile");
+    exit(EXIT_FAILURE);
+  }
+
+  int rows = simulationSnapshots;
+  int cols = simulationSnapshots;
+  // DEBUG
+  printf("Writing subspace error matrix dims: (%i, %i)\n", rows, cols);
+
+  fwrite((void*)(&rows), sizeof(int), 1, matrixFile);
+  fwrite((void*)(&cols), sizeof(int), 1, matrixFile);
+  fclose(matrixFile);
+
+}
+//////////////////////////////////////////////////////////////////////
+// Write the current subspace vector to the subspace matrix file
+//////////////////////////////////////////////////////////////////////
+void SUBSPACE_FLUID_3D_EIGEN::appendSubspaceVectors()
+{
+  FILE* matrixFile;
+  string filename = _reducedPath + string("qDot.matrix");
+
+  matrixFile = fopen(filename.c_str(), "ab");
+  if (matrixFile==NULL) {
+    perror("Error opening matrixFile");
+    exit(EXIT_FAILURE);
+  }
+
+  auto count = _qDot.size();
+  // DEBUG
+  printf("qDot has size: %lu\n", count);
+  fwrite((void*)(_qDot.data()), sizeof(double), count, matrixFile);
+
+  fclose(matrixFile);
+
+}
+
+//////////////////////////////////////////////////////////////////////
+// check if a file exists
 //////////////////////////////////////////////////////////////////////
 bool SUBSPACE_FLUID_3D_EIGEN::fileExists(const string& filename)
 {
