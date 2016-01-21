@@ -1,11 +1,13 @@
 #include <iostream>
 #include "SIMPLE_PARSER.h"
 #include "SUBSPACE_FLUID_3D_EIGEN.h"
+#include "BOX.h"
 #include <string>
 
 using std::string;
 
 SUBSPACE_FLUID_3D_EIGEN* fluid = NULL;
+/*
 BOX* box = NULL;
 // box parameters
 const VEC3F boxCenter(0.5, 0.5, 0.5);
@@ -16,7 +18,7 @@ const double period = 4.0;
 
 // period over which the box translates
 const double translationPeriod = 10.0;
-
+*/
 
 int main(int argc, char* argv[]) {
   // read in the cfg file
@@ -62,18 +64,21 @@ int main(int argc, char* argv[]) {
   cout << " Using iop: " << usingIOP << endl;
 
 	fluid = new SUBSPACE_FLUID_3D_EIGEN(xRes, yRes, zRes, reducedPath, &boundaries[0], usingIOP);
-  fluid->setTotalReducedSteps(simulationSnapshots);
+  //fluid->setTotalReducedSteps(simulationSnapshots);
 
+  // ADJ: We don't need any of this code for ZEPHYR_SPHERE!
+  /*
   box = new BOX(boxCenter, boxLengths, period, translationPeriod);
   box->set_dt(fluid->dt());
-  // linke the fluid with the obstacle
+
+  // link the fluid with the obstacle
   fluid->setObstacle(*box);
 
   int start = 150;
   fluid->buildRemainingObstacleMatrices(start);
+  */
 
   delete fluid;
-  delete box;
 
   return 0;
 }
