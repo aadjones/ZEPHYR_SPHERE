@@ -378,7 +378,14 @@ void runEverytime()
   if (animate)
   {
     static int step = 0;
-    if (step == 0) { fluid->writeSubspaceErrorMatrixDims(simulationSnapshots); }
+    if (step == 0) { 
+      // ADJ: in the sphere's legacy code, we must use 1+simulationSnapshots
+      // since it is indexed from zero
+      fluid->writeSubspaceErrorMatrixDims(1+simulationSnapshots); 
+      string cmd = string("mkdir ") + reducedPath + string("pbrt");
+      system(cmd.c_str());
+    }
+
     cout << " Simulation step " << 1 + step << endl;
 
     fluid->addSmokeColumn();
@@ -398,8 +405,10 @@ void runEverytime()
       TIMER::printTimingsPerFrame(step);
       cout << " velocityAbs = " << VECTOR(fluid->velocityErrorAbs()) << ";" << endl;
       cout << " velocityRelative = " << VECTOR(fluid->velocityErrorRelative()) << ";" << endl;
+      /*
       cout << " densityAbs = " << VECTOR(fluid->densityErrorAbs()) << ";" << endl;
       cout << " densityRelative = " << VECTOR(fluid->densityErrorRelative()) << ";" << endl;
+      */
     }
 
     // check if we're done
