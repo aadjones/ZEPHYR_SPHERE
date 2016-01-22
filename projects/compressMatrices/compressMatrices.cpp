@@ -97,6 +97,9 @@ int main(int argc, char* argv[]) {
   yRes -= 2;
   zRes -= 2;
 
+  // increase this by 1 due to legacy code indexing from zero!
+  numCols++;
+
   VEC3I dims(xRes, yRes, zRes);
   
   // times 3 since it is a VELOCITY3_FIELD_3D flattened out
