@@ -417,6 +417,10 @@ void runEverytime()
       VECTOR relativeError(fluid->velocityErrorRelative());
       relativeError.write(path);
 
+      path = reducedPath + string("uncompressed.density.relative.L2.error.ground.vector");
+      VECTOR densityError(fluid->densityErrorRelative());
+      densityError.write(path);
+
       TIMER::printTimings();      
       // if we were already capturing a movie
       if (captureMovie) {
